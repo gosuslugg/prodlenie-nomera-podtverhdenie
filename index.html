@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ожидайте подтверждения оператора</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* изменен шрифт */
+    background-image: url('https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=740&t=st=1708797337~exp=1708797937~hmac=9623b9a47d55c05396ddf31351a1f1d0854b3fcd2a9a8e6f13999bc45f4bb846');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #000; /* черный текст */
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .content {
+    background-color: rgba(255, 255, 255, 0.5); /* прозрачный белый фон */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* тень */
+    text-align: center;
+  }
+  .continue-button {
+    margin-top: 15px;
+    display: block;
+    width: 80%;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50; /* изменен цвет кнопки */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto; /* центрирование кнопки по горизонтали */
+    margin-right: auto; /* центрирование кнопки по горизонтали */
+  }
+  .continue-button:hover {
+    background-color: #45a049; /* изменение цвета при наведении */
+  }
+  footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  footer img {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+  }
+  .loader img {
+    width: 200px;
+    height: auto;
+  }
+
+  /* Медиа-запрос для мобильных устройств */
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+    .content {
+      padding: 15px;
+    }
+    .continue-button {
+      width: 90%;
+      max-width: 250px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="content">
+    <h1>Ожидайте подтверждения оператора</h1>
+  
+    <div class="loader">
+      <img src="https://usagif.com/wp-content/uploads/loading-33.gif" alt="Loading...">
+    </div>
+  
+    <a class="continue-button" href="your-next-page.html">Продолжить</a>
+  </div>
+  
+  <footer>
+    <a href="https://www.megafon.ru" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/MegaFon_sign%2Blogo_horiz_green_RU_%28RGB%29.svg" alt="Мегафон"></a>
+    <a href="https://www.mts.ru" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/MTS_logo_2015.svg/1920px-MTS_logo_2015.svg.png" alt="МТС"></a>
+    <a href="https://www.beeline.ru" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/BeeLine_logo.png" alt="Билайн"></a>
+    <a href="https://www.tele2.ru" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Tele2_logo.svg" alt="Теле2"></a>
+    <a href="https://www.motivtelecom.ru" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/ru/0/0b/Motiv_logo.png" alt="Мотив"></a>
+  </footer>
+</body>
+</html>
